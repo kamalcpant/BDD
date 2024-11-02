@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Verify the user search experience
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.46 s <<< FAILURE! -- in Verify the user search experience
+Verify the user search experience.Verify search behaviour is same in both Home and Offer page #2 -- Time elapsed: 15.69 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Beetroot]> but was:<[No data]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.OfferPageStepDefinition.user_validate_the_search_product_on_offer_page(OfferPageStepDefinition.java:33)
+	at ✽.User validate the search product Beet on Offer page(file:///E:/Selenium/SeleniumWorkspace/First/E2ECucumber/src/test/java/features/CucumberFeature.feature:9)
+

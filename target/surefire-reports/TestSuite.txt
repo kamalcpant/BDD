@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.39 s <<< FAILURE! -- in TestSuite
+TestRunner.TestNGRunner.runScenario["Verify search behaviour is same in both Home and Offer page", "Verify the user search experience"](2) -- Time elapsed: 13.40 s <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefinitions.OfferPageStepDefinition.user_validate_the_search_product_on_offer_page(OfferPageStepDefinition.java:32)
+	at ✽.User validate the search product Beet on Offer page(file:///E:/Selenium/SeleniumWorkspace/First/E2ECucumber/src/test/java/features/CucumberFeature.feature:9)
+
