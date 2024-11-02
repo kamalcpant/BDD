@@ -1,4 +1,4 @@
-Feature: Verify the user search experience
+Feature: Verify the user search experiences
 
 @Search
 Scenario Outline: Verify search behaviour is same in both Home and Offer page
